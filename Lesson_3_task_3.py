@@ -8,10 +8,13 @@ while x >= 1:
     print(x)
     x = x - 1
 
-z = 60
-while z // 2:
-    print(z)
-    z = z // 2
+k = 6000
+m = 0
+while k % 2 == 0:
+    m = m + 1
+    k = k / 2
+    print(k)
+print(m)
 
 
 
